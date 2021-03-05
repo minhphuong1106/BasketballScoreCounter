@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Basketball Score Counter</string>
+    <string name="teamAName">Team A</string>
+    <string name="teamBName">Team B</string>
+    <string name="defaultValue">0</string>
+    <string name="Increment1ButtonValues">+1 POINT</string>
+    <string name="Increment2ButtonValues">+2 POINT</string>
+    <string name="Increment3ButtonValues">+3 POINT</string>
+    <string name="Reset">Reset</string>
+</resources>

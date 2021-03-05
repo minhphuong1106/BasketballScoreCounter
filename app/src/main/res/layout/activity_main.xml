@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/FormLayoutStyles"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/TeamPointInfoLayoutStyles">
+        <LinearLayout style="@style/TeamLayoutStyles">
+            <TextView
+                android:id="@+id/tvTeamAName"
+                style="@style/TeamNameStyles"
+                android:text="@string/teamAName" />
+            <TextView
+                android:id="@+id/tvTeamACounter"
+                style="@style/TeamCounterStyles"
+                android:text="@string/defaultValue" />
+            <Button
+                android:id="@+id/btnIncrementPoint1A"
+                style="@style/IncrementButtonStyles"
+                android:text="@string/Increment1ButtonValues"/>
+            <Button
+                android:id="@+id/btnIncrementPoint2A"
+                style="@style/IncrementButtonStyles"
+                android:text="@string/Increment2ButtonValues"/>
+            <Button
+                android:id="@+id/btnIncrementPoint3A"
+                style="@style/IncrementButtonStyles"
+                android:text="@string/Increment3ButtonValues"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/TeamLayoutStyles">
+            <TextView
+                android:id="@+id/tvTeamBName"
+                style="@style/TeamNameStyles"
+                android:text="@string/teamBName" />
+            <TextView
+                android:id="@+id/tvTeamBCounter"
+                style="@style/TeamCounterStyles"
+                android:text="@string/defaultValue" />
+            <Button
+                android:id="@+id/btnIncrementPoint1B"
+                style="@style/IncrementButtonStyles"
+                android:text="@string/Increment1ButtonValues"/>
+            <Button
+                android:id="@+id/btnIncrementPoint2B"
+                style="@style/IncrementButtonStyles"
+                android:text="@string/Increment2ButtonValues"/>
+            <Button
+                android:id="@+id/btnIncrementPoint3B"
+                style="@style/IncrementButtonStyles"
+                android:text="@string/Increment3ButtonValues"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/ResetLayoutStyles">
+        <Button
+            android:id="@+id/btnReset"
+            style="@style/ResetButtonStyles"
+            android:text="@string/Reset"/>
+    </LinearLayout>
+
+</LinearLayout>
